@@ -3,7 +3,7 @@ Following up with the instructions from [Udacity README](README_Udacity.md), thi
 
 ## Computer Vision Pipeline:
 A computer vision pipeline is a series of steps that most computer vision applications will go through. Many vision applications start off by acquiring images and data, then processing that data, performing some analysis and recognition steps, then finally performing an action.
-[img]()
+![img](images/cv_pipeline.png)
 
 ## Method:
 
