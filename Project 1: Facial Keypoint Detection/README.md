@@ -1,4 +1,4 @@
-
+## Abstract:
 Following up with the instructions from [Udacity README](README_Udacity.md), this project aims to leverage knowledge of computer vision techniques and deep learning architectures to build a full pipeline of facial keypoint detections.
 
 ## OpenCV functions used:
