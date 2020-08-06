@@ -5,11 +5,11 @@ Following up with the instructions from [Udacity README](README_Udacity.md), thi
 A computer vision pipeline is a series of steps that most computer vision applications will go through. Many vision applications start off by acquiring images and data, then processing that data, performing some analysis and recognition steps, then finally performing an action.
 ![img](images/cv_pipeline.png)
 
-## Method:
+## Workflow:
 
 For face detection, the OpenCV function CascadeClassifier::detectMultiScale was used with an OpenCV XML file encoding a Haar Cascade classifier.
 
-For keypoint detection, a CNN architecture was chosen, similar to that described in the [NaimishNet paper](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/1710.00977.pdf). Three different variants of the architecture were tested, "full", "lite" and "superlite". The implementation of each model is found in the respective "model_xxx.py" file. A summary of the differences between the architectures, and other design decisions such as hyperparameter selection, are found in answers to three questions near the bottom of [this notebook](2.%20Define%20the%20Network%20Architecture-lite.ipynb). The networks were trained on a dataset of ~3500 images labeled with truth keypoints. The amount of training was limited further by time, given the available computation resources.
+For keypoint detection, a CNN architecture was chosen, similar to that described in the [NaimishNet paper](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/1710.00977.pdf).
 
 ## Results:
 
