@@ -10,7 +10,7 @@ After we’ve gone through the previous step to train a neural network to detect
 
 Based on the [NaimishNet paper](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/1710.00977.pdf) addressed, a CNN architecture was built for the implementation of facial key points detector.
 
-By leveraging CascadeClassifier to found the region of interest for our selected image, we then perform data preprocessing. Concretely, these steps are:
+By leveraging CascadeClassifier and fine-tune the parameter, we shall be able to find the region of interest for our selected image. Further, to help enhance the quality of data to promote the extraction of meaningful insights, we then perform data preprocessing. Concretely, these steps are:
 
 - Convert the image from RGB to grayscale.
 - Normalize the grayscale image so that its color range falls in [0,1] instead of [0,255].
@@ -18,7 +18,7 @@ By leveraging CascadeClassifier to found the region of interest for our selected
 - Reshape the numpy image shape (H x W x C) into a torch image shape (C x H x W).
 - Convert images to FloatTensors.
 
-After that, we’re able to make facial keypoint predictions using our pre-trained network. Finally, we display each detected face and the corresponding keypoints to check the results.
+After that, we’re ready to make facial keypoint predictions using our pre-trained network. Finally, we display each detected face and the corresponding keypoints to check the results.
 
 ## Results:
 
