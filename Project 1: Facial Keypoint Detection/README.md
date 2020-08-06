@@ -24,13 +24,13 @@ After that, we’re ready to make facial keypoint predictions using our pre-trai
 
 [This notebook](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb) contains the full pipeline: face detection, extraction and preprocessing, and keypoint prediction, as well as the final results.
 
-After face detection, with bounding boxes drawn around the detected faces:
+The picture shown below is the detected face area with bounding boxes drawn:
 
 ![img](images/image_with_detections_beatles_1.png)
 
-After keypoint prediction, using the trained "naimishlite" model:
+After keypoint prediction, using the loaded model we've already trained, eventually we get the facial keypoints!
 
 ![img](images/image_with_detections_beatles_2.png)
 
-Placement of keypoints on some of the faces is suboptimal due to limited training time and data.
+It is observed that the shift of the keypoints. They are so-called errors. The result can be improved by applying batch normalization as well as transfer learning.
 
