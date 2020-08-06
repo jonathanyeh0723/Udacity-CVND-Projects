@@ -1,5 +1,5 @@
 # Udacity-CVND-Projects
-This repository is for the assigned projects of Udacity Computer Vision Nano Degree
+This repository is mainly for the assigned projects of Udacity Computer Vision Nano Degree
 
 Projects | Concepts | Tools 
 --- | --- | ---
