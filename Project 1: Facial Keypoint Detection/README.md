@@ -17,7 +17,7 @@ For keypoint detection, a CNN architecture was chosen, similar to that described
 
 After face detection, with bounding boxes drawn around the detected faces:
 
-![foo](images/alltogether_faces.png)
+![img](images/image_with_detections_beatles_1.png)
 
 After keypoint prediction, using the trained "naimishlite" model:
 
