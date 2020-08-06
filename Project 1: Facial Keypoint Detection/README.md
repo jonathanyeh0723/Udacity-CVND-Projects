@@ -10,11 +10,11 @@ A computer vision pipeline is a series of steps that most computer vision applic
 ### Prerequisite
 After we’ve gone through the previous step to train a neural network to detect facial features, we’ll have the network to apply to any image that includes faces.
 
-Based on the[NaimishNet paper](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/1710.00977.pdf)addressed, a CNN architecture was built for the implementation of facial key points detector.
+Based on the [NaimishNet paper](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/1710.00977.pdf) addressed, a CNN architecture was built for the implementation of facial key points detector.
 
-###
+### Input Data
 
-For keypoint detection, a CNN architecture was chosen, similar to that described in the 
+
 
 ## Results:
 
