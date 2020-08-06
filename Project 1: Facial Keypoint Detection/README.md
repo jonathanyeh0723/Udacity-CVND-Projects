@@ -21,7 +21,7 @@ After face detection, with bounding boxes drawn around the detected faces:
 
 After keypoint prediction, using the trained "naimishlite" model:
 
-![foo](images/alltogether_keypts.png)
+![img](images/image_with_detections_beatles_2.png)
 
 Placement of keypoints on some of the faces is suboptimal due to limited training time and data.
 
