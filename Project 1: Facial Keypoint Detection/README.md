@@ -7,6 +7,8 @@ A computer vision pipeline is a series of steps that most computer vision applic
 
 ## Workflow:
 
+### 
+
 For face detection, the OpenCV function CascadeClassifier::detectMultiScale was used with an OpenCV XML file encoding a Haar Cascade classifier.
 
 For keypoint detection, a CNN architecture was chosen, similar to that described in the [NaimishNet paper](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/1710.00977.pdf).
