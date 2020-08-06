@@ -6,24 +6,19 @@ A computer vision pipeline is a series of steps that most computer vision applic
 ![img](images/cv_pipeline.png)
 
 ## Workflow:
-
-### Prerequisite
 After we’ve gone through the previous step to train a neural network to detect facial features, we’ll have the network to apply to any image that includes faces.
 
 Based on the [NaimishNet paper](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/1710.00977.pdf) addressed, a CNN architecture was built for the implementation of facial key points detector.
 
 By leveraging CascadeClassifier to found the region of interest for our selected image, we then perform data preprocessing. Concretely, these steps are:
 
-- 1.	Convert the image from RGB to grayscale.
-- 2.	Normalize the grayscale image so that its color range falls in [0,1] instead of [0,255].
-- 3.	Rescale the detected face to be the expected square size of our CNN (224x224 as suggested).
-- 4.	Reshape the numpy image shape (H x W x C) into a torch image shape (C x H x W).
-- 5.	Convert images to FloatTensors
+- Convert the image from RGB to grayscale.
+- Normalize the grayscale image so that its color range falls in [0,1] instead of [0,255].
+- Rescale the detected face to be the expected square size of our CNN (224x224 as suggested).
+- Reshape the numpy image shape (H x W x C) into a torch image shape (C x H x W).
+- Convert images to FloatTensors.
 
 After that, we’re able to make facial keypoint predictions using our pre-trained network. Finally, we display each detected face and the corresponding keypoints to check the results.
-
-
-
 
 ## Results:
 
