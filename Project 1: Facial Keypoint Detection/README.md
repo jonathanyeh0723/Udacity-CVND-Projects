@@ -13,7 +13,7 @@ For keypoint detection, a CNN architecture was chosen, similar to that described
 
 ## Results:
 
-[This notebook](3.%20Facial%20Keypoint%20Detection,%20Complete%20Pipeline-lite.ipynb) contains the full pipeline: face detection, extraction and preprocessing, and keypoint prediction, as well as the final results.
+[This notebook](https://github.com/jonathanyeh0723/Udacity-CVND-Projects/blob/master/Project%201:%20Facial%20Keypoint%20Detection/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb) contains the full pipeline: face detection, extraction and preprocessing, and keypoint prediction, as well as the final results.
 
 After face detection, with bounding boxes drawn around the detected faces:
 
